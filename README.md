@@ -33,3 +33,16 @@ GET /support
 ```
 
 get support data
+
+#### POST
+
+```http
+POST /signUp
+```
+
+| Parameter  | Type     | Description                 |
+|:-----------|:---------|:----------------------------|
+| `login`    | `string` | **Required**. User login    |
+| `password` | `string` | **Required**. User password |
+
+registers a user in the system

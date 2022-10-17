@@ -1,0 +1,4 @@
+export enum FavoritesEnum {
+  FAVORITES_TABLE = "FAVORITES_TABLE",
+  FAVORITES_DATA = "FAVORITES_DATA",
+}

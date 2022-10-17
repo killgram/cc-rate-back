@@ -3,7 +3,7 @@ import cors from "cors";
 const app: Application = express();
 const PORT = process.env.PORT || 9987;
 
-import { getWorkStatus, getAboutApp } from "./modules";
+import { getWorkStatus, getAboutApp, getSupport } from "./modules";
 
 // configuration
 app.use(cors());
@@ -13,6 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 // GET
 app.get("/status", getWorkStatus);
 app.get("/getAboutApp", getAboutApp);
+app.get("/getSupport", getSupport);
 
 // listener
 app.listen(PORT, (): void => {

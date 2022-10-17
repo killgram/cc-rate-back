@@ -26,3 +26,10 @@ GET /getAboutApp
 ```
 
 get about app data
+
+
+```http
+GET /support
+```
+
+get support data

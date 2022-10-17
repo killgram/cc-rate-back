@@ -7,12 +7,6 @@ import {
 
 const signUp = async (req: Request, res: Response) => {
   const { login, password } = req.body;
-  if (!login || !password) {
-    return res.status(200).send({
-      title: "query param is missing",
-      success: false,
-    });
-  }
   const isExist = await checkExistUserService(login);
 
   if (isExist) {

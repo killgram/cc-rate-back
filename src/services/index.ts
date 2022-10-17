@@ -3,6 +3,7 @@ import { getSupportService } from "./GetSupportService";
 import { checkExistUserService } from "./CheckExistUserService";
 import { regNewUserService } from "./RegNewUserService";
 import { regFavoritesUserItem } from "./RegFavoritesUserItem";
+import { getUserDataService } from "./GetUserDataService";
 
 export {
   getAboutAppService,
@@ -10,4 +11,5 @@ export {
   checkExistUserService,
   regNewUserService,
   regFavoritesUserItem,
+  getUserDataService,
 };

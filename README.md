@@ -9,7 +9,7 @@
 - [Axios](https://axios-http.com/)
 - [TS-Node](https://github.com/TypeStrong/ts-node)
 - [TS-Node-Dev](https://github.com/wclr/ts-node-dev)
-- [Node-Postgres](https://github.com/brianc/node-postgres)
+- [Mongodb](https://www.mongodb.com/)
 
 ## API Reference
 
@@ -20,3 +20,9 @@ GET /status
 ```
 
 getting the status of the service
+
+```http
+GET /getAboutApp
+```
+
+get about app data

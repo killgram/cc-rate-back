@@ -81,3 +81,15 @@ POST /addFavorites
 | `id`             | `number` | **Required**. Currency id          |
 
 adding your favorite currency
+
+```http
+POST /deleteFavorites
+```
+
+| Parameter        | Type     | Description                        |
+|:-----------------|:---------|:-----------------------------------|
+| `Authorization`  | `Bearer` | **Required**. Header, access token |
+| `user`           | `string` | **Required**. Username             |
+| `id`             | `number` | **Required**. Currency id          |
+
+deleting favorite currency

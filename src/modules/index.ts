@@ -4,5 +4,14 @@ import { getSupport } from "./GetSupport";
 import { signUp } from "./SignUp";
 import { signIn } from "./SignIn";
 import { addFavorites } from "./AddFavorites";
+import { deleteFavorites } from "./DeleteFavorites";
 
-export { getWorkStatus, getAboutApp, getSupport, signUp, signIn, addFavorites };
+export {
+  getWorkStatus,
+  getAboutApp,
+  getSupport,
+  signUp,
+  signIn,
+  addFavorites,
+  deleteFavorites,
+};

@@ -5,6 +5,7 @@ import { regNewUserService } from "./RegNewUserService";
 import { regFavoritesUserItem } from "./RegFavoritesUserItem";
 import { getUserDataService } from "./GetUserDataService";
 import { addFavoritesCurrencyService } from "./AddFavoritesCurrencyService";
+import { deleteFavoritesCurrencyService } from "./deleteFavoritesCurrencyService";
 
 export {
   getAboutAppService,
@@ -14,4 +15,5 @@ export {
   regFavoritesUserItem,
   getUserDataService,
   addFavoritesCurrencyService,
+  deleteFavoritesCurrencyService,
 };

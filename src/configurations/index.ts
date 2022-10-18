@@ -4,6 +4,7 @@ import { AboutAppEnum } from "./AboutAppEnum";
 import { SupportEnum } from "./SupportEnum";
 import { AuthEnum } from "./AuthEnum";
 import { FavoritesEnum } from "./FavoritesEnum";
+import { CurrencyListEnum } from "./CurrencyListEnum";
 
 export {
   db_url,
@@ -13,4 +14,5 @@ export {
   AuthEnum,
   FavoritesEnum,
   accessTokenSecret,
+  CurrencyListEnum,
 };

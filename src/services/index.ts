@@ -7,6 +7,7 @@ import { getUserDataService } from "./GetUserDataService";
 import { addFavoritesCurrencyService } from "./AddFavoritesCurrencyService";
 import { deleteFavoritesCurrencyService } from "./deleteFavoritesCurrencyService";
 import { getFavoritesDataService } from "./getFavoritesDataService";
+import { getCurrencyListService } from "./GetCurrencyListService";
 
 export {
   getAboutAppService,
@@ -18,4 +19,5 @@ export {
   addFavoritesCurrencyService,
   deleteFavoritesCurrencyService,
   getFavoritesDataService,
+  getCurrencyListService,
 };

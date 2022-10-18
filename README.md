@@ -33,7 +33,6 @@ GET /getAboutApp
 
 get about app data
 
-
 ```http
 GET /support
 ```
@@ -65,6 +64,16 @@ GET /getFavorites
 | `user`          | `string` | **Required**. Username              |
 
 getting a list of favorite currencies
+
+```http
+GET /getCurrencyList
+```
+
+| Parameter        | Type     | Description                        |
+|:-----------------|:---------|:-----------------------------------|
+| `Authorization`  | `Bearer` | **Required**. Header, access token |
+
+getting a list of currencies
 
 #### POST
 

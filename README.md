@@ -10,6 +10,8 @@
 - [TS-Node](https://github.com/TypeStrong/ts-node)
 - [TS-Node-Dev](https://github.com/wclr/ts-node-dev)
 - [Mongodb](https://www.mongodb.com/)
+- [Jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)
+- [Body-parser](https://github.com/expressjs/body-parser)
 
 ## API Reference
 
@@ -65,3 +67,17 @@ POST /signUp
 | `password` | `string` | **Required**. User password |
 
 registers a user in the system
+
+```http
+POST /addFavorites
+```
+
+| Parameter        | Type     | Description                        |
+|:-----------------|:---------|:-----------------------------------|
+| `Authorization`  | `Bearer` | **Required**. Header, access token |
+| `user`           | `string` | **Required**. Username             |
+| `name`           | `string` | **Required**. Currency name        |
+| `symbol`         | `string` | **Required**. Currency symbol      |
+| `id`             | `number` | **Required**. Currency id          |
+
+adding your favorite currency

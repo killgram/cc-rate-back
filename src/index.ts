@@ -11,6 +11,7 @@ import {
   getSupport,
   signUp,
   signIn,
+  addFavorites,
 } from "./modules";
 
 import {
@@ -32,6 +33,7 @@ app.get("/signIn", verificationAuthGet, signIn);
 
 // POST
 app.post("/signUp", verificationAuthPost, signUp);
+app.post("/addFavorites", authenticateJWT, addFavorites);
 
 // listener
 app.listen(PORT, (): void => {

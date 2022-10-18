@@ -4,6 +4,7 @@ import { checkExistUserService } from "./CheckExistUserService";
 import { regNewUserService } from "./RegNewUserService";
 import { regFavoritesUserItem } from "./RegFavoritesUserItem";
 import { getUserDataService } from "./GetUserDataService";
+import { addFavoritesCurrencyService } from "./AddFavoritesCurrencyService";
 
 export {
   getAboutAppService,
@@ -12,4 +13,5 @@ export {
   regNewUserService,
   regFavoritesUserItem,
   getUserDataService,
+  addFavoritesCurrencyService,
 };

@@ -13,6 +13,7 @@ import {
   signIn,
   addFavorites,
   deleteFavorites,
+  getFavorites,
 } from "./modules";
 
 import {
@@ -31,6 +32,7 @@ app.get("/status", getWorkStatus);
 app.get("/getAboutApp", authenticateJWT, getAboutApp);
 app.get("/getSupport", authenticateJWT, getSupport);
 app.get("/signIn", verificationAuthGet, signIn);
+app.get("/getFavorites", authenticateJWT, getFavorites);
 
 // POST
 app.post("/signUp", verificationAuthPost, signUp);

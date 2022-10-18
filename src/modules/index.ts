@@ -5,6 +5,7 @@ import { signUp } from "./SignUp";
 import { signIn } from "./SignIn";
 import { addFavorites } from "./AddFavorites";
 import { deleteFavorites } from "./DeleteFavorites";
+import { getFavorites } from "./GetFavorites";
 
 export {
   getWorkStatus,
@@ -14,4 +15,5 @@ export {
   signIn,
   addFavorites,
   deleteFavorites,
+  getFavorites,
 };

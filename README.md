@@ -55,6 +55,17 @@ GET /signIn
 
 gets user data
 
+```http
+GET /getFavorites
+```
+
+| Parameter       | Type     | Description                         |
+|:----------------|:---------|:------------------------------------|
+| `Authorization` | `Bearer` | **Required**. Header, access token  |
+| `user`          | `string` | **Required**. Username              |
+
+getting a list of favorite currencies
+
 #### POST
 
 ```http

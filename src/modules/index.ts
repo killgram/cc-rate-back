@@ -7,6 +7,7 @@ import { addFavorites } from "./AddFavorites";
 import { deleteFavorites } from "./DeleteFavorites";
 import { getFavorites } from "./GetFavorites";
 import { getCurrencyList } from "./GetCurrencyList";
+import { getLinks } from "./GetLinks";
 
 export {
   getWorkStatus,
@@ -18,4 +19,5 @@ export {
   deleteFavorites,
   getFavorites,
   getCurrencyList,
+  getLinks,
 };

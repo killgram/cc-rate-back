@@ -75,6 +75,16 @@ GET /getCurrencyList
 
 getting a list of currencies
 
+```http
+GET /getLinks
+```
+
+| Parameter        | Type     | Description                        |
+|:-----------------|:---------|:-----------------------------------|
+| `Authorization`  | `Bearer` | **Required**. Header, access token |
+
+getting a list of links for data
+
 #### POST
 
 ```http

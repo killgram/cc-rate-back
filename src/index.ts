@@ -15,6 +15,7 @@ import {
   deleteFavorites,
   getFavorites,
   getCurrencyList,
+  getLinks,
 } from "./modules";
 
 import {
@@ -35,6 +36,7 @@ app.get("/getSupport", authenticateJWT, getSupport);
 app.get("/signIn", verificationAuthGet, signIn);
 app.get("/getFavorites", authenticateJWT, getFavorites);
 app.get("/getCurrencyList", authenticateJWT, getCurrencyList);
+app.get("/getLinks", authenticateJWT, getLinks);
 
 // POST
 app.post("/signUp", verificationAuthPost, signUp);
